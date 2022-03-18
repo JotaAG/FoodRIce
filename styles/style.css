@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Gugi;
+  src: url(../font/Gugi/Gugi-Regular.ttf);
+}
+@font-face {
+  font-family: Goldman;
+  src: url(../font/Goldman/Goldman-Regular.ttf);
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Goldman;
+}
+
+#logo {
+  font-family: Gugi;
+  font-size: 2rem;
+}
+
+#index {
+  background-image: url(../image/index_bg.jpg);
+}
+
+#nosotros {
+  background-image: url(../image/nosotros_bg.jpg);
+}
+
+#menu {
+  background-image: url(../image/menu_bg.jpg);
+}
+
+#reservas {
+  background-image: url(../image/reservas_bg.jpg);
+}
+
+#contacto {
+  background-image: url(../image/contacto__bg.jpg);
+}
+
+.main__index {
+  min-height: 80vh;
+}
+
+.reservas {
+  min-height: 50vh;
+}
+
+.opinion {
+  height: 50vh;
+}
